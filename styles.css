@@ -1,2 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #0c0c0c;
+  color: #f0f0f0;
+  font-family: "Poppins", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 
-/* Your CSS Code here. */
+.movie-container {
+  text-align: center;
+  margin-top: 40px;
+  width: 80%;
+  max-width: 800px;
+}
+
+.movie-title {
+  font-size: 2.5rem;
+  color: #ffcc00;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+}
+
+/* Poster Styling */
+.moviePic {
+  height: 450px;
+  width: 300px;
+  opacity: 0.9;
+  border-radius: 15px;
+  box-shadow: 0 0 20px rgba(255, 204, 0, 0.3);
+  transition: all 0.3s ease-in-out;
+}
+
+.moviePic:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+/* Movie Description Styling */
+.movieDetail {
+  position: relative;
+  top: 30px;
+  width: 70%;
+  margin: 0 auto;
+  text-align: center;
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #e0e0e0;
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px rgba(255, 255, 255, 0.1);
+}
